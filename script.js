@@ -1,0 +1,16 @@
+var a = 10;
+console.log("The value of a is: " + a);
+var b = 20;
+console.log("The value of b is: " + b);
+b=25;
+console.log("The updated value of b is: " + b);
+const c=50;
+console.log("The value of c is: " + c);
+let name="Varun";
+let age=20;
+let isStudent = true;
+let x;
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof isStudent);
+console.log(typeof x);

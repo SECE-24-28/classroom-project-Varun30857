@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beating Heart</title>
+    <style>
+        /* Animation */
+        @keyframes beat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.8);   /* reduced size so it's smoother */
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Center the emoji on screen */
+        body {
+            display: flex;
+            justify-content: center;  /* horizontally center */
+            align-items: center;      /* vertically center */
+            height: 100vh;            /* full screen height */
+            margin: 0;                /* remove default margin */
+        }
+
+        .heart {
+            font-size: 150px;
+            animation: beat 2s infinite ease-in-out; 
+            /* 2s = slower, smooth speed */
+        }
+    </style>
+    <h1>Manasula Sogam🥺</h1>
+</head>
+<body>
+    <div class="heart">💔</div>
+    <script src="script.js"></script>
+</body>
+</html>
